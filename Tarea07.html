@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manejo de Bootstrap</title>
+    <!-- Bootstrap -->
+    <link rel="icon" href="img/img/Favicon.png">
+    <link href="css/css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<a name="inicio"></a>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+
+  <!-- Header -->
+	<header class="header">
+    	<h3 class="logo">Servicios Turisticos MAJUMA</h3>
+  	</header>
+
+	<!-- Barra de Navegación -->
+    <div class="container-fluid">
+    	<nav class="navbar navbar-default">
+	    	<div class="container-fluid">
+	        	<!-- Brand and toggle get grouped for better mobile display -->
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="defaultNavbar1">
+		    		<ul class="nav navbar-nav">
+		        		<li><a href="Page02.html" target="_blank"><b>Cuzco</b></a></li>
+                        <li><a href="Page03.html" target="_blank"><b>Iquitos</b></a></li>
+		        		<li><a href="Page04.html" target="_blank"><b>Nazca</b></a></li>
+		        		<li class="active"><a href="Page05.html" target="_blank">Lima</a></li>
+		        		<li class="dropdown">
+                        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+                             	aria-haspopup="true" aria-expanded="false"><b>Ciudades</b>
+                            	<span class="caret"></span>
+                            </a>
+		            		<ul class="dropdown-menu">
+		                		<li><a href="Page02.html" target="_blank"><b>Cuzco</b></a></li>
+		            			<li><a href="Page03.html" target="_blank"><b>Iquitos</b></a></li>
+		            			<li role="separator" class="divider"></li>
+		            			<li><a href="Page04.html" target="_blank"><b>Nazca</b></a></li>
+		            			<li><a href="Page05.html" target="_blank"><b>Lima</b></a></li>
+		            			<li role="separator" class="divider"></li>
+		            			<li><a href="Page06.html" target="_blank"><b>Contactos</b></a></li>
+	              	    	</ul>
+						</li>
+		    		</ul>
+				</div>
+	    	</div>
+		</nav>
+	</div>
+    
+<!-- Definicion de Carrusell -->
+	<div class="container">
+  		<div id="carousel1" class="carousel slide" data-ride="carousel">
+  	  		<ol class="carousel-indicators">
+  	    		<li data-target="#carousel1" data-slide-to="0" class="active"></li>
+  	    		<li data-target="#carousel1" data-slide-to="1"></li>
+  	    		<li data-target="#carousel1" data-slide-to="2"></li>
+                <li data-target="#carousel1" data-slide-to="3"></li>
+                <li data-target="#carousel1" data-slide-to="4"></li>                
+      		</ol>
+  	  		<div class="carousel-inner" role="listbox">
+  	    		<div class="item active">
+                	<img src="img/CiudadCuzco.jpg" alt="First slide image" class="profile">
+  	      			<div class="carousel-caption">
+  	        			<h3>Ciudad del Cuzco</h3>
+  	        			<p>Capital Arqueologica de America</p>
+          			</div>
+        		</div>
+  	    		<div class="item">
+                	<img src="img/CiudadPiura.jpg" alt="Second slide image" class="profile">
+  	   				<div class="carousel-caption">
+  	        			<h3>Ciudad de Piura</h3>
+  	        			<p>Tierra del Eterno Verano</p>
+          			</div>
+        		</div>
+  	    		<div class="item">
+                	<img src="img/iquitos.jpg" alt="Third slide image" class="profile">
+  	      			<div class="carousel-caption">
+  	        			<h3>Ciudad de Iquitos</h3>
+  	        			<p>Capital de la Amazonia Peruana</p>
+          			</div>
+        		</div>
+  	    		<div class="item">
+                	<img src="img/CiudadLima.jpg" alt="Fourth slide image" class="profile">
+  	      			<div class="carousel-caption">
+  	        			<h3>Ciudad de Lima</h3>
+  	        			<p>Capital del Perú</p>
+          			</div>
+        		</div>
+  	    		<div class="item">
+                	<img src="img/Lineas de Nazca El Mono.jpg" alt="Fifth slide image" class="profile">
+  	      			<div class="carousel-caption">
+  	        			<h3>Lineas de Nazca</h3>
+  	        			<p>Ciudad de Nazca</p>
+          			</div>
+        		</div>
+      		</div>
+  			<a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+           		<span class="sr-only">Previous</span>
+        	</a>
+        	<a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
+            	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            	<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+    
+	<p><a class="Goto" href="#inicio" title="Ir a Inicio"><img align="rigth" src="img/Arriba.png" 
+    	width="28px"></a></p>
+    
+      <!-- Stats Gallery Section -->
+  	<div class="gallery">
+		<div class="thumbnail"> <a href="Page02.html" target="_blank"><img src="img/img/bandera-cusco.jpg" 
+        	alt="" width="2000" class="cards"></img></a>
+      		<h4>CUZCO</h4>
+      		<p class="tag"><b>Capital Arqueologica de America del Sur</b></p>
+      		<p class="text_column">Cuzco es una ciudad de los Andes peruanos que fue la capital del Imperio Inca y es conocida por sus restos arqueológicos y la arquitectura colonial española.</p>
+    	</div>
+        <div class="thumbnail"> <a href="Page03.html" target="_blank"><img src="img/img/iquitos.jpg" 
+        	alt="" width="2000" class="cards"></img></a>
+      		<h4>IQUITOS</h4>
+      		<p class="tag"><b>Ciudad de Iquitos</b></p>
+      		<p class="text_column">Iquitos es una ciudad puerto peruana y una vía de acceso a los alojamientos en la selva y las villas del norte del Amazonas.</p>
+    	</div>
+    	<div class="thumbnail"> <a href="Page04.html" target="_blank"><img src="img/img/Lineas de Nazca El Mono.jpg" 			alt="" width="2000" class="cards"></img></a>
+      		<h4>NAZCA</h4>
+      		<p class="tag">Ciudad de Nazca y sus Lineas</p>
+      		<p class="text_column">Las Líneas de Nazca, en el sur de Perú, son un grupo de geoglifos precolombinos que se extienden en las arenas del desierto.</p>
+		</div>
+    	<div class="thumbnail"> <a href="Page05.html" target="_blank"><img src="img/img/CiudadLima.jpg" 
+        	alt="" width="2000" class="cards"></img></a>
+      		<h4>LIMA</h4>
+      		<p class="tag">Ciudad Capital del Perú</p>
+      		<p class="text_column">Lima es la capital de Perú ubicada en la costa del Pacífico del país. Pese a que su centro colonial se conserva, es una desbordante metrópolis y una de las ciudades más grandes de Sudamérica.</p>
+    	</div>
+	</div>
+    <footer><p align="right"><b>Esta pagina fue diseñada por Manuel Antonio Ramirez Raygada</b></footer>
+</body>
+</html>
