@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ciudad de Iquitos</title>
+	<link type="text/css" href="css/css/simpleGridTemplate.css" rel="stylesheet">
+	<link rel="icon" href="img/img/favicon.png">
+</head>
+
+<body>
+	<h2 align="center">LA CIUDAD DE IQUITOS - CAPITAL DE LORETO</h2>
+    <p align="justify" class="text_col">Iquitos es una ciudad puerto peruana y una vía de acceso a los alojamientos en la selva y las villas del norte del Amazonas. El distrito de Belén es conocido por su enorme mercado callejero al aire libre y los palafitos rústicos sobre pilotes que bordean el río Itaya.</p>
+	<p align="justify" class="text_col">En el centro histórico, se encuentra la Plaza de Armas, rodeada de edificios con influencia europea que datan del auge que tuvo la región en el cambio al siglo XX con la producción de caucho.</p>
+	<div align="center">
+    	<img class="I3" src="img/img/iquitos.jpg" title="Iquitos, Capital de Loreto"> 
+        <img class="I3" src="img/img/iquitos-peru.jpg" title="Casitas en la Rivera del Rio Nanay"> 
+        <img class="I3" src="img/img/Oso Peresoso.jpg" title="Oso Perezoso"> 
+        <img class="I3" src="img/img/Plantas Acuaticas.jpg" title="Plantas Acuaticas Tipicas">
+	</div>
+    <p align="justify" class="text_col">La geografía de Iquitos está caracterizada por su posición rodeada por los ríos Amazonas, Itaya y Nanay. Según el IIAP, Iquitos está emplazada en una clasificación de paisaje llamado «El Gran Paisaje Colinoso», con aproximaciones cercanas al «Paisaje de Llanura Fluvial de los ríos Amazonas, Nanay e Itaya».</p>
+    <p align="justify" class="text_col">La característica calinosa está enlazada a su ubicación en la Gran Planicie, el cual es la principal base geológica que la sostiene.</p>
+    <p align="justify" class="text_col">Iquitos está ubicado en el noreste de Perú, al noreste de departamento de Loreto, y en el extremo sur de la Provincia de Maynas.? Asentada en una llanura llamada la Gran Planicie, la ciudad tiene una extensión de 368,9 km² (142,4 mi²), abarcando parte de los distritos de Belén, Punchana y San Juan Bautista.</p>
+    <p align="justify" class="text_col">Está rodeada por el Puerto de Iquitos que conforma los ríos Amazonas, Nanay e Itaya. Está situada a la orilla izquierda del río Amazonas, el cual proporciona una vida económica característica, entre ellas comercio y transporte.?</p> 
+    <p align="justify" class="text_col">Los ríos Itaya y Nanay son límites naturales de la expansión física de la ciudad, permitiendo que la urbanización por derrame crezca hacia el sur y exista una ligera densidad poblacional el Centro de Iquitos. 
+    <p align="justify" class="text_col">Cerca a Iquitos también existe un sinnúmero de lagunas y cochas, prominentemente el lago Moronococha, que delimitan la ciudad por el oeste.</p> 
+</body>
+</html>
